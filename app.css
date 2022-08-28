@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    min-height: 800px;
+    min-height: 850px;
 }
 
 h1,
@@ -54,11 +54,10 @@ mark {
     flex-direction: column;
     justify-content: center;
     background-color: #F7EB73;
-    padding: 25px;
+    padding: 80px 30px;
     max-width: 320px;
     color: var(--primary-color);
     font-weight: 400;
-    min-height: 700px;
     box-shadow: 20px 20px 100px 0 #2f3542;
     transform: rotate(3deg);
 }
@@ -91,7 +90,7 @@ mark {
 }
 
 .container ul li{
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
 .container a{
@@ -108,7 +107,7 @@ mark {
 @media(min-width:768px){
     .container {
         max-width: 768px;
-        min-height: 600px;
+        padding: 100px;
     }
     
     .container h1{
